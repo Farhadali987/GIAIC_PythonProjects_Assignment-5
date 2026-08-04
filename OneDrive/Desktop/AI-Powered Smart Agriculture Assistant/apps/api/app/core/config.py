@@ -12,8 +12,14 @@ class Settings(BaseSettings):
     LLM_PROVIDER: str = "qwen"
     QWEN_API_KEY: str
     GEMINI_API_KEY: Optional[str] = None
-    LLM_TEMPERATURE: float = 0.7
-    LLM_MAX_TOKENS: int = 1000
+    # External APIs
+    OPEN_METEO_BASE_URL: str = "https://api.open-meteo.com/v1"
+    CLOUDINARY_URL: str
+    HUGGING_FACE_API_KEY: str
+    
+    # Provider Settings
+    API_TIMEOUT: int = 10
+    API_MAX_RETRIES: int = 3
     
     model_config = SettingsConfigDict(env_file=".env", case_sensitive=True)
 
