@@ -6,3 +6,5 @@ pydantic-settings
 clerk-sdk-python
 python-jose[cryptography]
 python-multipart
+openai
+httpx

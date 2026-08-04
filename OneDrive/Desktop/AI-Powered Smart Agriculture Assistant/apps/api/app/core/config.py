@@ -8,9 +8,12 @@ class Settings(BaseSettings):
     # Database
     DATABASE_URL: str
     
-    # Clerk
-    CLERK_JWT_KEY: str
-    CLERK_SECRET_KEY: str
+    # LLM
+    LLM_PROVIDER: str = "qwen"
+    QWEN_API_KEY: str
+    GEMINI_API_KEY: Optional[str] = None
+    LLM_TEMPERATURE: float = 0.7
+    LLM_MAX_TOKENS: int = 1000
     
     model_config = SettingsConfigDict(env_file=".env", case_sensitive=True)
 
