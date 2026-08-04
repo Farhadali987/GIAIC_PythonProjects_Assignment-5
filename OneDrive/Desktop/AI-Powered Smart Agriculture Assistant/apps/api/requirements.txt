@@ -9,3 +9,6 @@ python-multipart
 openai
 httpx
 tenacity
+pytest
+pytest-asyncio
+pytest-httpx
