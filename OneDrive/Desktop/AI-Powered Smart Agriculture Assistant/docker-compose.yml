@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  web:
+    build: ./apps/web
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+  api:
+    build: ./apps/api
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: kisanai
+    ports:
+      - "5432:5432"
