@@ -10,6 +10,7 @@ class Settings(BaseSettings):
     
     # Clerk
     CLERK_JWT_KEY: str
+    CLERK_SECRET_KEY: str
     
     model_config = SettingsConfigDict(env_file=".env", case_sensitive=True)
 

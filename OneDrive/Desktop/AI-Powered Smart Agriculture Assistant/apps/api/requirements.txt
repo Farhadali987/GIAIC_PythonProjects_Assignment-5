@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+pydantic-settings
+clerk-sdk-python
+python-jose[cryptography]
+python-multipart
