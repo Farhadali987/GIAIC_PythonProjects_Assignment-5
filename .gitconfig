@@ -4,8 +4,10 @@
 	process = git-lfs filter-process
 	required = true
 [user]
-	name = Farhad gul
-	email = 164610570+Farhadali987@users.noreply.github.com
+	name = FarhadGul
+	email = your_actual_github_email@example.com
 [core]
 	editor = \"D:\\Microsoft VS Code\\bin\\code\" --wait
 	autocrlf = true
+[credential "https://huggingface.co"]
+	provider = generic

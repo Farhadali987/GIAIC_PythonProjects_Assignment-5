@@ -1,0 +1,68 @@
+
+
+The following skills provide specialized instructions for specific tasks.
+Use the read tool to load a skill's file when the task matches its description.
+When a skill file references a relative path, resolve it against the skill directory (parent of SKILL.md / dirname of the path) and use that absolute path in tool commands.
+
+<available_skills>
+  <skill>
+    <name>browser-automation</name>
+    <description>Use when controlling web pages with the OpenClaw browser tool, especially multi-step flows, login checks, tab management, or recovery from stale refs/timeouts.</description>
+    <location>~/AppData\Roaming\npm\node_modules\openclaw\dist\extensions\browser\skills\browser-automation\SKILL.md</location>
+  </skill>
+  <skill>
+    <name>code-review</name>
+    <description>AI-powered code review using CodeRabbit. Default code-review skill. Trigger for any explicit review request AND autonomously when the agent thinks a review is needed (code/PR/quality/security).</description>
+    <location>~/.agents\skills\code-review\SKILL.md</location>
+  </skill>
+  <skill>
+    <name>deploy-to-vercel</name>
+    <description>Deploy applications and websites to Vercel. Use when the user requests deployment actions like &quot;deploy my app&quot;, &quot;deploy and give me the link&quot;, &quot;push this live&quot;, or &quot;create a preview deployment&quot;.</description>
+    <location>~/.agents\skills\deploy-to-vercel\SKILL.md</location>
+  </skill>
+  <skill>
+    <name>find-skills</name>
+    <description>Helps users discover and install agent skills when they ask questions like &quot;how do I do X&quot;, &quot;find a skill for X&quot;, &quot;is there a skill that can...&quot;, or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.</description>
+    <location>~/.agents\skills\find-skills\SKILL.md</location>
+  </skill>
+  <skill>
+    <name>gemini</name>
+    <description>Gemini CLI for one-shot Q&amp;A, summaries, and generation.</description>
+    <location>~/AppData\Roaming\npm\node_modules\openclaw\skills\gemini\SKILL.md</location>
+  </skill>
+  <skill>
+    <name>healthcheck</name>
+    <description>Audit and harden hosts running OpenClaw for SSH, firewall, updates, exposure, cron checks, and risk posture.</description>
+    <location>~/AppData\Roaming\npm\node_modules\openclaw\skills\healthcheck\SKILL.md</location>
+  </skill>
+  <skill>
+    <name>node-connect</name>
+    <description>Diagnose OpenClaw Android, iOS, or macOS node pairing, QR/setup code, route, auth, and connection failures.</description>
+    <location>~/AppData\Roaming\npm\node_modules\openclaw\skills\node-connect\SKILL.md</location>
+  </skill>
+  <skill>
+    <name>python-mcp-server-generator</name>
+    <description>Generate a complete MCP server project in Python with tools, resources, and proper configuration</description>
+    <location>~/.agents\skills\python-mcp-server-generator\SKILL.md</location>
+  </skill>
+  <skill>
+    <name>skill-creator</name>
+    <description>Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill&apos;s description for better triggering accuracy.</description>
+    <location>~/.agents\skills\skill-creator\SKILL.md</location>
+  </skill>
+  <skill>
+    <name>taskflow</name>
+    <description>Coordinate multi-step detached tasks as one durable TaskFlow job with owner context, state, waits, and child tasks.</description>
+    <location>~/AppData\Roaming\npm\node_modules\openclaw\skills\taskflow\SKILL.md</location>
+  </skill>
+  <skill>
+    <name>taskflow-inbox-triage</name>
+    <description>Example TaskFlow pattern for inbox triage, intent routing, waiting on replies, and later summaries.</description>
+    <location>~/AppData\Roaming\npm\node_modules\openclaw\skills\taskflow-inbox-triage\SKILL.md</location>
+  </skill>
+  <skill>
+    <name>weather</name>
+    <description>Get current weather, rain, temperature, and forecasts for locations or travel planning.</description>
+    <location>~/AppData\Roaming\npm\node_modules\openclaw\skills\weather\SKILL.md</location>
+  </skill>
+</available_skills>

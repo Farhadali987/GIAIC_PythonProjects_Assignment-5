@@ -1,0 +1,86 @@
+{
+  "plugins": {
+    "entries": {
+      "whatsapp": {
+        "enabled": true
+      },
+      "google": {
+        "enabled": true
+      }
+    }
+  },
+  "channels": {
+    "whatsapp": {
+      "enabled": true,
+      "selfChatMode": true,
+      "dmPolicy": "allowlist",
+      "allowFrom": [
+        "03192933093"
+      ]
+    }
+  },
+  "gateway": {
+    "auth": {
+      "mode": "token",
+      "token": "def90370c5642b37045f0128a4019a0b7b7b384899fd0caf"
+    },
+    "mode": "local",
+    "port": 18789,
+    "bind": "loopback",
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "controlUi": {
+      "allowInsecureAuth": true
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "contacts.add",
+        "calendar.add",
+        "reminders.add",
+        "sms.send",
+        "sms.search"
+      ]
+    }
+  },
+  "agents": {
+    "defaults": {
+      "workspace": "C:\\Users\\Engineer Farhad Ali\\.openclaw\\workspace",
+      "models": {
+        "google/gemini-3.1-pro-preview": {},
+        "google/gemini-3.5 flish": {}
+      },
+      "model": {
+        "primary": "google/gemini-3.5 flish"
+      }
+    }
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "tools": {
+    "profile": "coding"
+  },
+  "auth": {
+    "profiles": {
+      "google:default": {
+        "provider": "google",
+        "mode": "api_key"
+      }
+    }
+  },
+  "wizard": {
+    "lastRunAt": "2026-07-12T20:27:25.348Z",
+    "lastRunVersion": "2026.6.11",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local"
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.6.11",
+    "lastTouchedAt": "2026-07-12T20:27:26.621Z"
+  }
+}

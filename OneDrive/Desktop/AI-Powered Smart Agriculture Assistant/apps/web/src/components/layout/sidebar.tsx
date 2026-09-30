@@ -27,7 +27,7 @@ export function Sidebar() {
       <div className="flex h-16 items-center border-b px-6">
         <Link href="/" className="font-bold text-primary">KisanAI</Link>
       </div>
-      <nav className="flex-1 overflow-y-auto p-4 space-y-1">
+      <nav aria-label="Main Navigation" className="flex-1 overflow-y-auto p-4 space-y-1">
         {sidebarLinks.map((link) => {
           const Icon = link.icon;
           const isActive = pathname === link.href;

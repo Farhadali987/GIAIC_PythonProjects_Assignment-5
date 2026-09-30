@@ -7,4 +7,4 @@ class User(Base, TimestampMixin):
     id = Column(Integer, primary_key=True, index=True)
     clerk_id = Column(String, unique=True, index=True, nullable=False)
     email = Column(String, unique=True, index=True, nullable=False)
-    role = Column(String, default="farmer") # farmer, expert, admin, govt_officer
+    role = Column(String, default="farmer", index=True) # farmer, expert, admin, govt_officer

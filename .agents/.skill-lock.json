@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "skills": {
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "c2f31172b6f256272305a5e6e7228b258446899f",
+      "installedAt": "2026-02-19T10:00:43.372Z",
+      "updatedAt": "2026-02-19T10:00:43.372Z"
+    },
+    "deploy-to-vercel": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/deploy-to-vercel/SKILL.md",
+      "skillFolderHash": "1378aa506439f26c809dbcfc61515cbd70f93d69",
+      "installedAt": "2026-05-06T16:04:04.103Z",
+      "updatedAt": "2026-05-10T14:10:15.899Z"
+    },
+    "skill-creator": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/skill-creator/SKILL.md",
+      "skillFolderHash": "3cf9a8db32597ba3e24b584a3d696f4e11c7d7b6",
+      "pluginName": "example-skills",
+      "installedAt": "2026-05-07T17:25:03.641Z",
+      "updatedAt": "2026-07-23T20:07:32.382Z"
+    },
+    "code-review": {
+      "source": "coderabbitai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coderabbitai/skills.git",
+      "skillPath": "skills/code-review/SKILL.md",
+      "skillFolderHash": "5049a0877f3e224666b7bdfe4a42aaccd78b3379",
+      "installedAt": "2026-06-12T00:34:06.089Z",
+      "updatedAt": "2026-07-23T20:09:35.347Z"
+    },
+    "python-mcp-server-generator": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/python-mcp-server-generator/SKILL.md",
+      "skillFolderHash": "1e70235853c14ffade02dc3efd0b9bf21b612afb",
+      "installedAt": "2026-06-12T00:37:23.937Z",
+      "updatedAt": "2026-06-12T00:37:23.937Z"
+    },
+    "voice-ai-integration": {
+      "source": "shengwang-community/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/shengwang-community/skills.git",
+      "skillPath": "skills/voice-ai-integration/SKILL.md",
+      "skillFolderHash": "01dff9758ab51f2b62d2ba050f59a2faef941de5",
+      "installedAt": "2026-07-23T20:12:10.604Z",
+      "updatedAt": "2026-07-23T20:12:10.604Z"
+    },
+    "fastapi": {
+      "source": "fastapi/fastapi",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fastapi/fastapi.git",
+      "skillPath": "fastapi/.agents/skills/fastapi/SKILL.md",
+      "skillFolderHash": "a3a558959c169f0766fba515c08bcee1870024ed",
+      "installedAt": "2026-07-23T20:21:50.234Z",
+      "updatedAt": "2026-07-23T20:21:50.234Z"
+    },
+    "trading-analysis": {
+      "source": "gracefullight/stock-checker",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/gracefullight/stock-checker.git",
+      "skillPath": ".agents/skills/trading-analysis/SKILL.md",
+      "skillFolderHash": "ef9458f6b5c3cce25d361633ce51d7ddfdea69e6",
+      "installedAt": "2026-07-23T20:32:46.928Z",
+      "updatedAt": "2026-07-23T20:40:26.381Z"
+    },
+    "trading-signal": {
+      "source": "binance/binance-skills-hub",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/binance/binance-skills-hub.git",
+      "skillPath": "skills/binance-web3/trading-signal/SKILL.md",
+      "skillFolderHash": "f1cb1c6ea41e47985b61c78d84cabf49d38f1757",
+      "installedAt": "2026-07-23T21:22:06.987Z",
+      "updatedAt": "2026-07-23T21:25:07.273Z"
+    },
+    "crypto-com-exchange": {
+      "source": "crypto-com/crypto-agent-trading",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/crypto-com/crypto-agent-trading.git",
+      "skillPath": "crypto-com-exchange/SKILL.md",
+      "skillFolderHash": "0696c610f6633ec4cf97136e2a13071388bd1c29",
+      "installedAt": "2026-07-23T21:27:42.515Z",
+      "updatedAt": "2026-07-24T01:35:19.053Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "antigravity-cli",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed",
+    "aider-desk"
+  ]
+}

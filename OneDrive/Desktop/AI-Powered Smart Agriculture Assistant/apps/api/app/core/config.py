@@ -1,4 +1,5 @@
 from pydantic_settings import BaseSettings, SettingsConfigDict
+from typing import Optional, List
 
 class Settings(BaseSettings):
     PROJECT_NAME: str = "KisanAI"
@@ -20,6 +21,7 @@ class Settings(BaseSettings):
     # Provider Settings
     API_TIMEOUT: int = 10
     API_MAX_RETRIES: int = 3
+    ALLOWED_ORIGINS: List[str] = ["http://localhost:3000"]
     
     model_config = SettingsConfigDict(env_file=".env", case_sensitive=True)
 

@@ -26,3 +26,4 @@ export const FarmOverview = () => (
     </CardContent>
   </Card>
 );
+

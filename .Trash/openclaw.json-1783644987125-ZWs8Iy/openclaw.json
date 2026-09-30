@@ -1,0 +1,189 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "C:\\Users\\Engineer Farhad Ali\\.openclaw\\workspace",
+      "model": {
+        "primary": "google/gemini-3.1-flash-lite"
+      },
+      "models": {
+        "google/gemini-3.1-pro-preview": {
+          "agentRuntime": {
+            "id": "google-gemini-cli"
+          }
+        },
+        "google/gemini-3.1-flash-lite": {}
+      }
+    }
+  },
+  "gateway": {
+    "mode": "local",
+    "auth": {
+      "mode": "token",
+      "token": "e5fbddde82d1e99f2936c8228f7e77610d1df1dbecf88da8"
+    },
+    "port": 18789,
+    "bind": "loopback",
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "controlUi": {
+      "allowInsecureAuth": true
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "contacts.add",
+        "calendar.add",
+        "reminders.add",
+        "sms.send",
+        "sms.search"
+      ]
+    }
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "tools": {
+    "profile": "coding"
+  },
+  "auth": {
+    "profiles": {
+      "google:default": {
+        "provider": "google",
+        "mode": "api_key"
+      },
+      "google-gemini-cli:farhadgul081@gmail.com": {
+        "provider": "google-gemini-cli",
+        "mode": "oauth",
+        "email": "farhadgul081@gmail.com"
+      }
+    }
+  },
+  "plugins": {
+    "entries": {
+      "google": {
+        "enabled": true
+      },
+      "whatsapp": {
+        "enabled": true
+      }
+    }
+  },
+  "wizard": {
+    "lastRunAt": "2026-07-10T00:53:30.406Z",
+    "lastRunVersion": "2026.6.11",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.6.11",
+    "lastTouchedAt": "2026-07-10T00:53:32.283Z"
+  },
+  "channels": {
+    "whatsapp": {
+      "enabled": true,
+      "selfChatMode": false,
+      "dmPolicy": "pairing"
+    }
+  },
+  "skills": {
+    "entries": {
+      "1password": {
+        "enabled": false
+      },
+      "blogwatcher": {
+        "enabled": false
+      },
+      "blucli": {
+        "enabled": false
+      },
+      "camsnap": {
+        "enabled": false
+      },
+      "coding-agent": {
+        "enabled": false
+      },
+      "eightctl": {
+        "enabled": false
+      },
+      "gh-issues": {
+        "enabled": false
+      },
+      "gifgrep": {
+        "enabled": false
+      },
+      "github": {
+        "enabled": false
+      },
+      "gog": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": false
+      },
+      "himalaya": {
+        "enabled": false
+      },
+      "mcporter": {
+        "enabled": false
+      },
+      "nano-pdf": {
+        "enabled": false
+      },
+      "obsidian": {
+        "enabled": false
+      },
+      "openai-whisper": {
+        "enabled": false
+      },
+      "openai-whisper-api": {
+        "enabled": false
+      },
+      "openhue": {
+        "enabled": false
+      },
+      "oracle": {
+        "enabled": false
+      },
+      "ordercli": {
+        "enabled": false
+      },
+      "sag": {
+        "enabled": false
+      },
+      "session-logs": {
+        "enabled": false
+      },
+      "sherpa-onnx-tts": {
+        "enabled": false
+      },
+      "songsee": {
+        "enabled": false
+      },
+      "sonoscli": {
+        "enabled": false
+      },
+      "spotify-player": {
+        "enabled": false
+      },
+      "summarize": {
+        "enabled": false
+      },
+      "trello": {
+        "enabled": false
+      },
+      "video-frames": {
+        "enabled": false
+      },
+      "wacli": {
+        "enabled": false
+      },
+      "xurl": {
+        "enabled": false
+      }
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "agent:main:main": {
+    "sessionId": "0fff3f48-035c-4ef9-864d-a8d300309eb0",
+    "updatedAt": 1783889865054,
+    "sessionStartedAt": 1783888672101,
+    "systemSent": true,
+    "abortedLastRun": false,
+    "chatType": "direct",
+    "compactionCount": 0,
+    "totalTokens": 0,
+    "totalTokensFresh": true,
+    "skillsSnapshot": {
+      "skills": [
+        {
+          "name": "browser-automation"
+        },
+        {
+          "name": "canvas"
+        },
+        {
+          "name": "clawhub"
+        },
+        {
+          "name": "code-review"
+        },
+        {
+          "name": "deploy-to-vercel"
+        },
+        {
+          "name": "diagram-maker"
+        },
+        {
+          "name": "find-skills"
+        },
+        {
+          "name": "gemini",
+          "requiredEnv": []
+        },
+        {
+          "name": "healthcheck"
+        },
+        {
+          "name": "meme-maker",
+          "requiredEnv": []
+        },
+        {
+          "name": "node-connect"
+        },
+        {
+          "name": "node-inspect-debugger",
+          "requiredEnv": []
+        },
+        {
+          "name": "notion",
+          "primaryEnv": "NOTION_API_TOKEN",
+          "requiredEnv": []
+        },
+        {
+          "name": "python-debugpy",
+          "requiredEnv": []
+        },
+        {
+          "name": "python-mcp-server-generator"
+        },
+        {
+          "name": "skill-creator"
+        },
+        {
+          "name": "spike"
+        },
+        {
+          "name": "taskflow"
+        },
+        {
+          "name": "taskflow-inbox-triage"
+        },
+        {
+          "name": "weather"
+        }
+      ],
+      "version": 1783889753901,
+      "promptFormatVersion": 1,
+      "promptRef": {
+        "version": 1,
+        "algorithm": "sha256",
+        "hash": "414e72a43e801c35fa11c79924dfaa9801148e999a82285fd53f74ccd5214d5a",
+        "bytes": 7559
+      }
+    },
+    "sessionFile": "C:\\Users\\Engineer Farhad Ali\\.openclaw\\agents\\main\\sessions\\0fff3f48-035c-4ef9-864d-a8d300309eb0.jsonl",
+    "status": "failed",
+    "startedAt": 1783888719961,
+    "endedAt": 1783888719960,
+    "runtimeMs": 0,
+    "lastInteractionAt": 1783889865053,
+    "providerOverride": "google",
+    "modelOverride": "gemini-3.1-pro-preview",
+    "modelOverrideSource": "user"
+  },
+  "agent:main:whatsapp:direct:+923023059893": {
+    "sessionId": "36ac411d-0d44-42c5-84b6-5741e6a39608",
+    "updatedAt": 1783889917828,
+    "sessionStartedAt": 1783889811422,
+    "lastInteractionAt": 1783889811422,
+    "systemSent": true,
+    "abortedLastRun": false,
+    "chatType": "direct",
+    "route": {
+      "channel": "whatsapp"
+    },
+    "deliveryContext": {
+      "channel": "whatsapp"
+    },
+    "lastChannel": "whatsapp",
+    "origin": {
+      "provider": "webchat",
+      "surface": "webchat",
+      "chatType": "direct"
+    },
+    "compactionCount": 0,
+    "totalTokens": 0,
+    "totalTokensFresh": true,
+    "sessionFile": "C:\\Users\\Engineer Farhad Ali\\.openclaw\\agents\\main\\sessions\\36ac411d-0d44-42c5-84b6-5741e6a39608.jsonl",
+    "skillsSnapshot": {
+      "skills": [
+        {
+          "name": "browser-automation"
+        },
+        {
+          "name": "canvas"
+        },
+        {
+          "name": "clawhub"
+        },
+        {
+          "name": "code-review"
+        },
+        {
+          "name": "deploy-to-vercel"
+        },
+        {
+          "name": "diagram-maker"
+        },
+        {
+          "name": "find-skills"
+        },
+        {
+          "name": "gemini",
+          "requiredEnv": []
+        },
+        {
+          "name": "healthcheck"
+        },
+        {
+          "name": "meme-maker",
+          "requiredEnv": []
+        },
+        {
+          "name": "node-connect"
+        },
+        {
+          "name": "node-inspect-debugger",
+          "requiredEnv": []
+        },
+        {
+          "name": "notion",
+          "primaryEnv": "NOTION_API_TOKEN",
+          "requiredEnv": []
+        },
+        {
+          "name": "python-debugpy",
+          "requiredEnv": []
+        },
+        {
+          "name": "python-mcp-server-generator"
+        },
+        {
+          "name": "skill-creator"
+        },
+        {
+          "name": "spike"
+        },
+        {
+          "name": "taskflow"
+        },
+        {
+          "name": "taskflow-inbox-triage"
+        },
+        {
+          "name": "weather"
+        }
+      ],
+      "version": 1783889722332,
+      "promptFormatVersion": 1,
+      "promptRef": {
+        "version": 1,
+        "algorithm": "sha256",
+        "hash": "414e72a43e801c35fa11c79924dfaa9801148e999a82285fd53f74ccd5214d5a",
+        "bytes": 7559
+      }
+    },
+    "status": "failed",
+    "startedAt": 1783889892083,
+    "endedAt": 1783889892082,
+    "runtimeMs": 0
+  }
+}

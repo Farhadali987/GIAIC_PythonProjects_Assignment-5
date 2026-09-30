@@ -1,0 +1,87 @@
+{
+  "agent:main:main": {
+    "sessionId": "abfecedf-ef7a-4116-a198-096bee1f2940",
+    "updatedAt": 1783888267569,
+    "sessionStartedAt": 1783888199380,
+    "skillsSnapshot": {
+      "skills": [
+        {
+          "name": "browser-automation"
+        },
+        {
+          "name": "canvas"
+        },
+        {
+          "name": "clawhub"
+        },
+        {
+          "name": "code-review"
+        },
+        {
+          "name": "deploy-to-vercel"
+        },
+        {
+          "name": "diagram-maker"
+        },
+        {
+          "name": "find-skills"
+        },
+        {
+          "name": "gemini",
+          "requiredEnv": []
+        },
+        {
+          "name": "healthcheck"
+        },
+        {
+          "name": "meme-maker",
+          "requiredEnv": []
+        },
+        {
+          "name": "node-connect"
+        },
+        {
+          "name": "node-inspect-debugger",
+          "requiredEnv": []
+        },
+        {
+          "name": "notion",
+          "primaryEnv": "NOTION_API_TOKEN",
+          "requiredEnv": []
+        },
+        {
+          "name": "python-debugpy",
+          "requiredEnv": []
+        },
+        {
+          "name": "python-mcp-server-generator"
+        },
+        {
+          "name": "skill-creator"
+        },
+        {
+          "name": "spike"
+        },
+        {
+          "name": "taskflow"
+        },
+        {
+          "name": "taskflow-inbox-triage"
+        },
+        {
+          "name": "weather"
+        }
+      ],
+      "version": 1783888158446,
+      "promptFormatVersion": 1,
+      "promptRef": {
+        "version": 1,
+        "algorithm": "sha256",
+        "hash": "414e72a43e801c35fa11c79924dfaa9801148e999a82285fd53f74ccd5214d5a",
+        "bytes": 7559
+      }
+    },
+    "lastInteractionAt": 1783888267568,
+    "sessionFile": "C:\\Users\\Engineer Farhad Ali\\.openclaw\\agents\\main\\sessions\\abfecedf-ef7a-4116-a198-096bee1f2940.jsonl"
+  }
+}

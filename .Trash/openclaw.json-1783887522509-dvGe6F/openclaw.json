@@ -1,0 +1,133 @@
+{
+  "plugins": {
+    "entries": {
+      "whatsapp": {
+        "enabled": true
+      }
+    }
+  },
+  "channels": {
+    "whatsapp": {
+      "enabled": true,
+      "selfChatMode": false,
+      "dmPolicy": "open",
+      "allowFrom": [
+        "*"
+      ]
+    }
+  },
+  "wizard": {
+    "lastRunAt": "2026-07-11T23:12:39.799Z",
+    "lastRunVersion": "2026.6.11",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.6.11",
+    "lastTouchedAt": "2026-07-11T23:30:56.322Z"
+  },
+  "gateway": {
+    "auth": {
+      "mode": "token",
+      "token": "bb436df58f7c6925115767d71b68e8b8a34f98cede508dd3"
+    },
+    "mode": "local"
+  },
+  "skills": {
+    "entries": {
+      "1password": {
+        "enabled": false
+      },
+      "blogwatcher": {
+        "enabled": false
+      },
+      "blucli": {
+        "enabled": false
+      },
+      "camsnap": {
+        "enabled": false
+      },
+      "coding-agent": {
+        "enabled": false
+      },
+      "eightctl": {
+        "enabled": false
+      },
+      "gh-issues": {
+        "enabled": false
+      },
+      "gifgrep": {
+        "enabled": false
+      },
+      "github": {
+        "enabled": false
+      },
+      "gog": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": false
+      },
+      "himalaya": {
+        "enabled": false
+      },
+      "mcporter": {
+        "enabled": false
+      },
+      "nano-pdf": {
+        "enabled": false
+      },
+      "obsidian": {
+        "enabled": false
+      },
+      "openai-whisper": {
+        "enabled": false
+      },
+      "openai-whisper-api": {
+        "enabled": false
+      },
+      "openhue": {
+        "enabled": false
+      },
+      "oracle": {
+        "enabled": false
+      },
+      "ordercli": {
+        "enabled": false
+      },
+      "sag": {
+        "enabled": false
+      },
+      "session-logs": {
+        "enabled": false
+      },
+      "sherpa-onnx-tts": {
+        "enabled": false
+      },
+      "songsee": {
+        "enabled": false
+      },
+      "sonoscli": {
+        "enabled": false
+      },
+      "spotify-player": {
+        "enabled": false
+      },
+      "summarize": {
+        "enabled": false
+      },
+      "trello": {
+        "enabled": false
+      },
+      "video-frames": {
+        "enabled": false
+      },
+      "wacli": {
+        "enabled": false
+      },
+      "xurl": {
+        "enabled": false
+      }
+    }
+  }
+}
